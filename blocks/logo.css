@@ -1,0 +1,14 @@
+.logo {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+  max-width: 254px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .logo {
+    max-width: 188px;
+  }
+}
