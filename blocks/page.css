@@ -1,12 +1,15 @@
 .page {
-  max-width: 1280px;
-  margin: 0 auto;
   background-color: #2a2c2f;
+  color: #fff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  max-width: 1280px;
+  margin: auto;
 }
-@media screen and (min-width: 1024px) {
-  .page {
+@media screen and (min-width: 1280px) {
+  body {
     background-color: #2a2c2f;
   }
 }
